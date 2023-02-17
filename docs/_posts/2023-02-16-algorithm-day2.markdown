@@ -13,7 +13,7 @@ Given an integer array nums sorted in non-decreasing order, return an array of t
 
 Example:
 
-{% highlight %}
+{% highlight ruby%}
 Input: nums = [-4,-1,0,3,10]
 Output: [0,1,9,16,100]
 Explanation: After squaring, the array becomes [16,1,0,9,100].
@@ -59,7 +59,7 @@ subarray whose sum is greater than or equal to target. If there is no such subar
 
 Example:
 
-{% highlight %}
+{% highlight ruby%}
 Input: target = 7, nums = [2,3,1,2,4,3]
 Output: 2
 Explanation: The subarray [4,3] has the minimal length under the problem constraint.
@@ -94,7 +94,7 @@ Time complexity is O(n)
 Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.
 Example:
 
-{% highlight %}
+{% highlight ruby%}
 Input: n = 3
 Output: [[1,2,3],[8,9,4],[7,6,5]]
 {% endlight %}
