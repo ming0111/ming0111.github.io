@@ -18,7 +18,7 @@ Input: nums = [-4,-1,0,3,10]
 Output: [0,1,9,16,100]
 Explanation: After squaring, the array becomes [16,1,0,9,100].
 After sorting, it becomes [0,1,9,16,100].
-{% endlight %}
+{% endhighlight %}
 
 I use a two pointers way, with code as below:
 
@@ -63,7 +63,7 @@ Example:
 Input: target = 7, nums = [2,3,1,2,4,3]
 Output: 2
 Explanation: The subarray [4,3] has the minimal length under the problem constraint.
-{% endlight %}
+{% endhighlight %}
 
 I use a two pointers way, also called moving sliding window.
 
@@ -97,7 +97,7 @@ Example:
 {% highlight ruby%}
 Input: n = 3
 Output: [[1,2,3],[8,9,4],[7,6,5]]
-{% endlight %}
+{% endhighlight %}
 
 I did this before, it is all about details at edges, corners and the middle part.
 {% highlight ruby %}
